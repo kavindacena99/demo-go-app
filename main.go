@@ -7,7 +7,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, Folks! \n")
+		fmt.Fprintf(w, "He Folks! \n")
 	})
 
 	// /hello endpoint
